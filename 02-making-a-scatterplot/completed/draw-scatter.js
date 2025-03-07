@@ -19,8 +19,8 @@ async function drawScatter() {
     margin: {
       top: 10,
       right: 10,
-      bottom: 50,
-      left: 50,
+      bottom: 50, // creates room for the x-axis
+      left: 50, // creates room for the y-axis
     },
   }
   dimensions.boundedWidth = dimensions.width
